@@ -4,8 +4,8 @@ pipeline {
   environment {
     DOCKERHUB_CREDENTIALS = 'dockerhub-credentials'      // Jenkins Credentials ID
     DOCKERHUB_USERNAME = 'syed411'                       // Your Docker Hub username
-    IMAGE_NAME = 'docker-demo'                           // Image name
-    IMAGE_TAG = 'v1'                                      // Image tag
+    IMAGE_NAME = 'syed-docker'                           // Image name
+    IMAGE_TAG = 'custom'                                      // Image tag
   }
 
   stages {
